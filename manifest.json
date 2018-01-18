@@ -1,0 +1,22 @@
+{
+    "name": "pctransactionfixer",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "Personal Capital Transaction Fixer",
+    "homepage_url": "https://github.com/sclem/pctransactionfixer",
+    "icons": {
+        "48": "icons/accounting48.png",
+        "128": "icons/accounting128.png"
+    },
+    "permissions": [
+        "webRequest", "webRequestBlocking", "https://home.personalcapital.com/*"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "applications": {
+        "gecko": {
+            "strict_min_version": "57.0a1"
+        }
+    }
+}
